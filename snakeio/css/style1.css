@@ -1,0 +1,96 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+}
+
+
+body {
+    background-image: url(/images/bkhomee.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+/* Topbar container */
+.topbar {
+    background-color: rgba(30, 33, 48, 0.5);
+    /* Slightly darker gray for contrast */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* Flexbox layout */
+    align-items: center;
+    /* Center vertically */
+    justify-content: flex-start;
+    /* Align items to the left */
+    height: 50px;
+    /* Fixed height for the bar */
+    width: 100%;
+    /* Full width across the screen */
+    position: fixed;
+    /* Fixed positioning at the top */
+    top: 0;
+    left: 0;
+    z-index: 10;
+    /* Keep the bar above other elements */
+    padding-left: 20px;
+    /* Space on the left side */
+    box-sizing: border-box;
+}
+
+/* Topbar list items */
+.topbar li {
+    display: inline-block;
+    /* Horizontal alignment */
+    margin: 0 15px;
+    /* Even space between items */
+}
+
+/* Topbar links */
+.topbar a {
+    color: #f5f5f5;
+    /* Light color for readability */
+    text-decoration: none;
+    /* No underline */
+    padding: 15px 10px;
+    /* Inner spacing for larger click area */
+    font-size: 1rem;
+    /* Readable font size */
+    transition: background-color 0.3s;
+    /* Smooth hover effect */
+}
+
+/* Link hover effect */
+.topbar a:hover {
+    background-color: #313131;
+    /* Darken on hover */
+
+}
+
+/* Body padding adjustment */
+body {
+    padding-top: 50px;
+    /* Adjusted to the height of the topbar */
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: #313131;
+    color: aqua;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: #313131;
+    color: aqua;
+}
+
+p {
+    text-align: center;
+    text-decoration: #313131;
+    color: aqua;
+}
